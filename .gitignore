@@ -1,0 +1,53 @@
+# Byte-compiled / compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+.venv-*
+
+# Cache & Logs
+*.log
+*.sqlite3
+db.sqlite3
+*.db
+
+# Ignore VSCode & PyCharm settings
+.vscode/
+.idea/
+*.iml
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python package installs
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+
+# Ignore environment variables & secrets
+.env
+*.env
+.env.local
+.env.*.local
+
+# Ignore Vercel build & deployment files
+.vercel
+.vercel_build_output
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore testing & coverage reports
+.coverage
+htmlcov/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
